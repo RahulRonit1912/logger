@@ -1,5 +1,5 @@
 {
-  "name": "node-logger",
+  "name": "node-logging-tool",
   "version": "1.0.0",
   "description": "Package for logging",
   "main": "build/index.js",
