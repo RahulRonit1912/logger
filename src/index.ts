@@ -59,8 +59,8 @@ class Logging {
   public setLabel(fileName: string, method: any = null) {
     let label = this.getLabel(fileName);
     label += method ? ' ~ ' + method : '';
-    this.logger.transports.console['label'] = label;
-    this.logger.transports.file['label'] = label;
+    this.logger.transports.console.label = label;
+    this.logger.transports.file.label = label;
   }
 
   // return the file name from absolute path for label in logs
