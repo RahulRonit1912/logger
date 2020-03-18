@@ -115,4 +115,5 @@ class Logging {
   };
 }
 
-export default new Logging();
+const logger = new Logging();
+export { logger };
